@@ -32,3 +32,5 @@ $ git remote -v : gitlap 저장소 주소 확인 // 고아 브랜치 만드는 �
 $ git checkout master $ git checkout --orphan c_YYMMDD_CAMPAIGNNAME $ git rm -rf . $ git push origin c_YYMMDD_CAMPAIGNNAME  
 ```
 
+### git log 확인
+- $ git log --pretty=format:"%h,%ar,%an : %s" --graph
